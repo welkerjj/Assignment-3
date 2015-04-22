@@ -1,0 +1,55 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+body {
+  font-family: 'Droid', serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+}
+
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+
+.logo img {
+  margin-right: 7px;
+  float: left;
+  display: block;
+}
+
+.social-icons {
+  background-color: red;
+  float: right;
+}
+
+.social-icons a:nth-child(7) {
+  padding-left: 10px;
+}
+
+.recipe {
+  float: left;
+}
+
+.recipe h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+.recipecard {font-family: 'Patrick Hand', cursive;}
+
